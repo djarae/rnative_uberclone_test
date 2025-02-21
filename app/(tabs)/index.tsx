@@ -16,7 +16,7 @@ useEffect(()=>{
   let subscription:any;
 
   (async ()=>{
-    let {status} = await Location.requestForegroundPermissionsAsync();
+    let {status} = await Location.requestForegroundPermissionsAsync();//obtenemos ubicacion actual
     if(status !== 'granted'){
       setErrorMsg('Permisson to access location was denied');
       return;
