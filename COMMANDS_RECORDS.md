@@ -9,3 +9,8 @@ npm install --save-dev tailwindcss@3.3.2
 npx tailwindcss init
 
 npx expo install react-native-maps
+
+npm i haversine-distance
+
+
+Ejercicio: Optimizar el orden del codigo ,separando funciones a otro archivo.Componentes ,etc
