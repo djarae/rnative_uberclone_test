@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import { StyleSheet, Image, Platform } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';

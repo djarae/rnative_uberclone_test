@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import { useEffect } from 'react';
 import { StyleSheet } from 'react-native';
 import Animated, {

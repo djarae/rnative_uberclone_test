@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import * as React from 'react';
 import renderer from 'react-test-renderer';
 

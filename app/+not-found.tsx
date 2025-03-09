@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
 

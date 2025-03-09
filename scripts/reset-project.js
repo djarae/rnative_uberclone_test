@@ -1,4 +1,6 @@
-#!/usr/bin/env node
+#!/usr/bin/env nodeconst {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
 
 /**
  * This script is used to reset the project to a blank state.
